@@ -1,0 +1,86 @@
+*body{
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: f9f9f9;
+}
+.sidebar{
+    height: auto;
+    margin-bottom: 50px;
+    padding: 10px;
+    width: 50px;
+    background-color: aqua;
+    color: white;
+    align-items: center;
+    border-radius: 0px 8px 8px 0px;
+    box-shadow: 0px 10px 15px rgba(144, 144, 144, 0.5);
+    position: fixed;
+}
+.box{
+    background-color: white;
+    width: 95%;
+    margin-right: 50px;
+
+    height: 200px;
+    margin: 30px;
+    transition: background-color 0.5s ease;
+    box-shadow: 0px 5px 10px rgba(85, 85, 85, 0.5);
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    border-radius: 5px;
+    box-sizing: border-box;
+    
+    
+}
+.box:hover{
+    background-color: rgb(229, 243, 248);
+}
+
+.box:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+}
+
+#h1{
+    text-align: center;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    color: rgb(249, 88, 88);
+}
+
+
+.logo{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    padding: 20px;
+    height: 15px;
+
+}
+.para{
+    font-size: 15px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s ease;
+    cursor: pointer;
+
+}
+.about{
+    color: blue;
+    transition: color 0.5s ease;
+    height: 1000px;
+    width: 100px;
+    background-color: aquamarine;
+}
